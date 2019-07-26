@@ -1,0 +1,7 @@
+New_list = []
+
+for i in list(input()): #input for the string
+    if i not in New_list:
+        New_list.append(i) #formation of new_list
+        
+print(len(New_list)) # new_list i.e. not-iterable length
